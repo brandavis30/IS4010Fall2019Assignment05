@@ -31,29 +31,29 @@ public class FootballFun {
 		
 	}
 	
-	public static String translateScore (int score) {
-		if (score == 2) {
+	public static String translateScore (int score) { // method
+		if (score == 2) {	//test if score is 2
 			return "safety"; 
 		}
-		else if (score == 3) {
+		else if (score == 3) {	//test if score is 3
 			return "field goal"; 
 		}
-		else if (score == 6) {
+		else if (score == 6) {	//test if score is 6
 			return "touchdown";
 		}
-		else if (score == 7) {
+		else if (score == 7) {	//test if score is 7
 			return "touchdown and extra point";
 		}
-		else if (score == 8) {
+		else if (score == 8) {	//test if score is 8
 			return "touchdown and 2-point conversion";
 		}
-		else if (score == 10) {
+		else if (score == 10) {	//test if score is 10
 			return "you must be playing Quidditch ";
 		}
-		else if (score >= 0) {
+		else if (score >= 0) {	//return for invalid scores
 			return "invalid";
 		}
-		else if (score < 0) {
+		else if (score < 0) {	//return for invalid scores
 			return "";
 		}
 		
